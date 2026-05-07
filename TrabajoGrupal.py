@@ -18,8 +18,9 @@ class ErrorReservaInvalida(ErrorSoftwareFJ):
 # Archivo principal para probar el sistema
 # Se ejecutan casos válidos e inválidos
 
+
 from cliente import Cliente
-from servicios import ReservaSala
+from servicios import ReservaSala, AlquilerEquipo, AsesoriaEspecializada
 from reserva import Reserva
 from excepciones import ErrorSoftwareFJ
 from logs import registrar_log
