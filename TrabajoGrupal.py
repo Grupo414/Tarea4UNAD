@@ -1,3 +1,5 @@
+# holaaaa 
+
 # Hola compañeros, de acuerdo con mi consulta para el desarrollo del codigo es importante que importemos las librerias de datatime y abc 
 # para que el codigo sea organizado y para que que python no vea las fechas como solo texto si no que asi se conviertan en objetos inteligentes
 import datetime
