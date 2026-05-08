@@ -77,7 +77,7 @@ class ErrorReservaInvalida(ErrorSoftwareFJ):
     """Se usa cuando la lógica de negocio no se cumple (ej. costo 0)."""
     pass
 
->>>>>>> upstream/main
+
 # Archivo principal para probar el sistema
 # Se ejecutan casos válidos e inválidos
 
@@ -92,7 +92,7 @@ from logs import registrar_log
 def simulacion():
     try:
         # Caso válido
-        cliente1 = Cliente("Juan", "123")
+        cliente1 = Cliente("Juan", "123", 'juan@gmail.com')
         servicio1 = ReservaSala(2)
 
         reserva1 = Reserva(cliente1, servicio1, 2)
@@ -103,7 +103,7 @@ def simulacion():
         reserva2.confirmar()
 
         # Caso inválido: cliente incorrecto
-        cliente2 = Cliente("", "abc")
+        cliente2 = Cliente("", "abc", "correo@gmail.com")
 
     except ErrorSoftwareFJ as e:
         # Manejo de errores generales del sistema
