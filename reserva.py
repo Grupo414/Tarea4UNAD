@@ -4,7 +4,7 @@
 from excepciones import ErrorReservaInvalida, ErrorServicioNoDisponible
 from logs import registrar_log
 
-
+from servicios import ReservaSala, AlquilerEquipo, AsesoriaEspecializada
 class Reserva:
 
     # Constructor de la clase Reserva
